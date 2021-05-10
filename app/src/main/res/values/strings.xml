@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PNEU-COV</string>
+    <string name="selectedlanguage">English</string>
+    <string name="language">Please select your language</string>
+    <string name="next">NEXT</string>
+    <string name="info">Special care is taken during x-ray examinations to use the lowest radiation dose possible while producing the best images for evaluation. National and international radiology protection organisations continually review and update the technique standards used by radiology professionals. Modern x-ray systems have very controlled x-ray beams and dose control methods to minimise stray (scatter) radiation. This ensures that those parts of a patient’s body not being imaged receive minimal radiation exposure.</string>
+    <string name="upload">UPLOAD</string>
+    <string name="select">SELECT</string>
+    <string name="test">PNEU-COV  TEST</string>
+    <string name="h">Select your case</string>
+    <string name="g">Upload the X-Ray</string>
+</resources>

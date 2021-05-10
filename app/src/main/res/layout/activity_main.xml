@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/freesans"
+        android:text="@string/language"
+        android:textColor="#6C6262"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dia_lang"
+            android:layout_width="190dp"
+            android:layout_height="45dp"
+            android:background="@drawable/custom_button"
+            android:elegantTextHeight="true"
+            android:paddingHorizontal="18dp"
+            android:fontFamily="@font/freesans"
+            android:drawableEnd="@drawable/down"
+            android:text="@string/selectedlanguage"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_weight="0.1" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/freesans"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textAlignment="center"
+        android:elegantTextHeight="true"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:cornerRadius="23dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

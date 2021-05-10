@@ -2,7 +2,9 @@
 Android app that takes a chest X-ray image as an input and predicts whether or not it is diagnosed with pneumonia.
 
 # Start Activity
-(images/1.jpeg = 250x250)
+<p align="center">
+  <img src="https://github.com/ParvNarang/PNEU-COV-App/blob/d05e684f570c06760b7546372c354898081691ec/images/1.jpeg" width="350">
+</p>
 
 The first activity has the option of selecting your preffered language.
 
